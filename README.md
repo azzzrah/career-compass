@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# Career Compass
 
-## Project info
+AI-assisted career guidance and learning roadmap platform designed to help users identify skill gaps, explore career pathways, and organise their professional growth journey.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+Career Compass is a prototype platform built to explore how AI-driven workflows and structured career data can be combined into a more personalised career guidance experience.
 
-**Use Lovable**
+The project focuses on:
+- skill-gap analysis
+- personalised learning recommendations
+- career progression planning
+- workflow organisation
+- modular frontend system design
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+The goal was to create an interactive system that helps users better understand:
+- where they currently stand
+- what skills they are missing
+- what learning path they should take next
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Key Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### AI-Assisted Career Guidance
+Designed workflows to support personalised career exploration and structured skill development pathways.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Skill-Gap Analysis
+Users can input their current skills and compare them against target career requirements.
 
-Follow these steps:
+### Personalised Learning Roadmap
+Dynamic roadmap interface to visualise recommended learning progression and development milestones.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Application Workflow Tracking
+Kanban-style workflow management system for organising career tasks and applications.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Modular Frontend Architecture
+Structured using reusable React/TypeScript components to support scalability and maintainability.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Tech Stack
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
+- Vite
+- Component-based frontend architecture
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## Project Structure
 
-## Can I connect a custom domain to my Lovable project?
+### SkillsInput
+Handles user skill collection and profile input workflows.
 
-Yes, you can!
+### RoadmapTimeline
+Visualises personalised learning progression and career development stages.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### KanbanBoard
+Organises workflow tracking and application management.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Dashboard Components
+Provides structured user interaction and navigation flow.
+
+---
+
+## Design Goals
+
+- Create an intuitive and scalable user experience
+- Explore AI-oriented recommendation workflows
+- Build reusable modular frontend systems
+- Improve visibility of career progression pathways
+- Prototype rapidly within a hackathon-style development cycle
+
+---
+
+## Technical Learnings
+
+Through this project, I learned:
+- how to structure modular frontend systems
+- how workflow orchestration improves user experience
+- the importance of scalable component architecture
+- how recommendation-oriented systems require both technical and UX thinking
+
+---
+
+## Future Improvements
+
+- Integrate LLM-based recommendation workflows
+- Add adaptive career recommendation engine
+- Introduce resume analysis features
+- Add API-based job market integration
+- Expand roadmap personalisation logic
+- Automate workflow recommendations using AI agents
+
+---
+
+## Screenshots
+
+(Add screenshots here)
+
+---
+
+## Status
+
+Prototype / Experimental Build
+
+Focused on rapid experimentation, workflow design, and scalable frontend architecture exploration.
